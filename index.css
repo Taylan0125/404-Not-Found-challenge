@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-left: 77px;
+}
+
+img {
+    width: 539px;
+    height: 447px;
+    padding-top: 80px;
+    padding-right: 77px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    width: 381px;
+
+}
+
+button {
+    margin-top: 60px;
+    width: 216px;
+    height: 68px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+}
+
+@media screen and (max-width:480px) {
+    main {
+        width: 480px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+
+    }
+
+    h1 {
+        padding: 0;
+    }
+
+    img {
+        padding-top: 10%;
+        width: 286px;
+        height: 238px;
+    }
+
+    h2 {
+
+        font-size: 48px;
+
+        width: 80%
+    }
+
+    h3 {
+        width: 80%;
+    }
+
+}
